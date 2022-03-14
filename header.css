@@ -1,0 +1,19 @@
+body {
+    /**** Marges de la page *****/
+    margin: 0;
+    padding: 0;
+
+    /***** POLICE ******/
+    font-family: 'Open Sans', 'Arial', 'sans-serif';
+}
+
+
+/**** HEADER ****/
+
+header {
+    background: url(./img/image.jpg);
+    background-position: center center;
+    text-align: center;
+    color: white;
+    padding: 30px 30px 150px 30px;
+}
