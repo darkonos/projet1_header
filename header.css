@@ -35,6 +35,8 @@ header h1, header h2 {
     text-shadow: 0 0 5px black;
 }
 
+/**** HEADER BUTTON ****/
+
 header button {
     padding: 15px;
     width: 250px;
