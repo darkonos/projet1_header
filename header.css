@@ -59,3 +59,23 @@ header button:active {
     top: 2px;
 }
 
+/**** HEADER MENU ****/
+
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 40px;
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 0 0 3px black;
+}
