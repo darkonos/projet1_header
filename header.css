@@ -17,3 +17,45 @@ header {
     color: white;
     padding: 30px 30px 150px 30px;
 }
+
+header h1 {
+    font-size: 6em;
+    margin-top: 150px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75); /* Opacité 75% */
+    padding-bottom: 15px;
+}
+
+header h2 {
+    font-size: 2.5em;
+    margin-top: -25px;
+    font-style: italic;
+}
+
+header h1, header h2 {
+    text-shadow: 0 0 5px black;
+}
+
+header button {
+    padding: 15px;
+    width: 250px;
+    font-size: 1.25rem;
+    background: rgb(0, 155, 235);
+    color: white;
+    border: rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgb(0, 55, 135);
+
+}
+
+header button:hover {
+    cursor: pointer; /* Le curseur se transforme en curseur de lien */
+   
+}
+
+ /* quand on click dessus, le button va descendre et l'ombre va disparaitre */
+header button:active {
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+
